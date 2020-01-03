@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "crawler": "^1.2.1",
+    "json2csv": "^4.5.4"
+  },
+  "scripts": {
+    "start": "export level=village && node index.js"
+  }
+}
