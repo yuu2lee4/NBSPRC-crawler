@@ -4,6 +4,6 @@
     "json2csv": "^4.5.4"
   },
   "scripts": {
-    "start": "export level=village && node index.js"
+    "start": "export level=county && node index.js"
   }
 }

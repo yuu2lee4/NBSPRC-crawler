@@ -3,7 +3,7 @@ const { AsyncParser } = require('json2csv');
 const { writeFile } = require("fs").promises;
 
 const area = [];
-const baseURL = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018';
+const baseURL = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2019';
 const typeArray = ['province', 'city', 'county', 'town', 'village'];
 
 const { level } = process.env;
